@@ -4,11 +4,7 @@ import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
 import { CgFileDocument } from "react-icons/cg";
 
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -43,8 +39,20 @@ function Home2() {
               and modern JavaScript libraries and frameworks like React.js and
               Angular.
             </p>
-            <div style={{ padding: 50, textAlign: "left" }}>
-              <Button href="/resume" target="_blank">
+            <div style={{ textAlign: "left" }}>
+              <Button
+                href="/resume"
+                target="_blank"
+                style={{
+                  width: "200px",
+                  height: "60px",
+                  textAlign: "center",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  fontSize: "20px",
+                }}
+              >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Button>
             </div>

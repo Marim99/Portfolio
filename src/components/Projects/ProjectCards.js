@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { SiWebflow } from "react-icons/si";
 
 function ProjectCards(props) {
   return (
@@ -31,6 +32,17 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+        {props.websiteUrl && (
+          <Button
+            variant="primary"
+            href={props.websiteUrl}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <SiWebflow /> &nbsp;
+            {"Website"}
           </Button>
         )}
       </Card.Body>
