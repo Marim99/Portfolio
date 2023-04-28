@@ -9,6 +9,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const resumeLink =
   "https://raw.githubusercontent.com/Marim99/Portfolio/master/src/Assets/MarimKhaled_CV.pdf";
+// const resumeLink =
+//   "https://docs.google.com/document/d/1kRiZXWfYu_l0jhiyvkDvWGkKzt0_JOgy/edit?usp=sharing&ouid=107731412762593990244&rtpof=true&sd=true";
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -23,7 +25,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href="https://docs.google.com/document/d/1kRiZXWfYu_l0jhiyvkDvWGkKzt0_JOgy/edit?usp=sharing&ouid=107731412762593990244&rtpof=true&sd=true"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -41,7 +43,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href="https://docs.google.com/document/d/1kRiZXWfYu_l0jhiyvkDvWGkKzt0_JOgy/edit?usp=sharing&ouid=107731412762593990244&rtpof=true&sd=true"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
