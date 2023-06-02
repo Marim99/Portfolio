@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/MarimKhaled_CV.pdf";
+import pdf from "../../Assets/MariamKhaled_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const resumeLink =
-  "https://raw.githubusercontent.com/Marim99/Portfolio/master/src/Assets/MarimKhaled_CV.pdf";
+  "https://raw.githubusercontent.com/Marim99/Portfolio/blob/master/src/Assets/MariamKhaled_CV.pdf";
 // const resumeLink =
 //   "https://docs.google.com/document/d/1kRiZXWfYu_l0jhiyvkDvWGkKzt0_JOgy/edit?usp=sharing&ouid=107731412762593990244&rtpof=true&sd=true";
 function ResumeNew() {
@@ -25,7 +25,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://docs.google.com/document/d/1kRiZXWfYu_l0jhiyvkDvWGkKzt0_JOgy/edit?usp=sharing&ouid=107731412762593990244&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/14oKjs_MDz_CMsAfP0a2p9BAm-AiNy8nO4h9pxBtioNI/edit?usp=sharing"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -43,7 +43,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://docs.google.com/document/d/1kRiZXWfYu_l0jhiyvkDvWGkKzt0_JOgy/edit?usp=sharing&ouid=107731412762593990244&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/14oKjs_MDz_CMsAfP0a2p9BAm-AiNy8nO4h9pxBtioNI/edit?usp=sharing"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >

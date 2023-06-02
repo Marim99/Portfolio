@@ -5,12 +5,30 @@ import Particle from "../Particle";
 import linkedin from "../../Assets/Projects/linkedin.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import pharmacy from "../../Assets/Projects/pharmacy.jpg";
+import threads from "../../Assets/Projects/Threads.jpg";
 import jsProject from "../../Assets/Projects/jsProject.jpg";
 import workoutApp from "../../Assets/Projects/workout.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.jpg";
+import writing from "../../Assets/Projects/writing.png";
 
 function Projects() {
   const projects = [
+    {
+      title: "Threads and Beads",
+      description:
+        "online marketplace for handmade crafts and jewelry with an Angular-based frontend and a Node js-based backend",
+      websiteUrl: "https://threadsandbeads-4863e.web.app/",
+      imgUrl: threads,
+      gitHubUrl: "https://github.com/orgs/ThreadsAndBeads/repositories",
+    },
+    {
+      title: "Authorlytics",
+      description:
+        "Authorlytics is an articles website it is designed to manage users and groups, and assign roles to each user based on their group. The website allows users to create, read, update and delete articles based on their assigned roles",
+      demoLinkUrl: "https://www.youtube.com/watch?v=4-UdTVfevS0",
+      imgUrl: writing,
+      gitHubUrl: "https://github.com/Authorlytics-Dashboard/Articles-Dashboard",
+    },
     {
       title: "Linked in app",
       description:
