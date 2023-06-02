@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import linkedin from "../../Assets/Projects/linkedin.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import pharmacy from "../../Assets/Projects/pharmacy.jpg";
-import threads from "../../Assets/Projects/Threads.jpg";
+import threads from "../../Assets/Projects/threads.jpg";
 import jsProject from "../../Assets/Projects/jsProject.jpg";
 import workoutApp from "../../Assets/Projects/workout.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.jpg";
